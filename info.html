@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汪涛 - Tao Wang</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #111;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+            font-weight: 600;
+            margin: 40px 0 20px 0;
+            color: #111;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        
+        .affiliation {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        
+        .contact {
+            margin-bottom: 30px;
+            color: #666;
+        }
+        
+        .contact a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .publication {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            text-indent: -20px;
+        }
+        
+        .project {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            text-indent: -20px;
+        }
+        
+        .venue {
+            font-weight: 600;
+            color: #0366d6;
+        }
+        
+        .highlight {
+            color: #d73a49;
+            font-weight: 500;
+        }
+        
+        .stars {
+            color: #28a745;
+            font-weight: 500;
+        }
+        
+        .news-item {
+            margin-bottom: 8px;
+        }
+        
+        .news-date {
+            font-weight: 500;
+            color: #555;
+            margin-right: 10px;
+            display: inline-block;
+            min-width: 70px;
+        }
+
+        /* 🔥 最终优化：奖项左对齐，年份右对齐 */
+        .award-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            padding-left: 20px;
+        }
+        .award-title {
+            text-align: left;
+        }
+        .award-date {
+            font-weight: 500;
+            color: #555;
+            text-align: right;
+            white-space: nowrap;
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>汪涛</h1>
+    <div class="affiliation">
+        四川大学 (Sichuan University)
+    </div>
+    
+    <div class="contact">
+        📧 <a href="mailto:scuer_wt@stu.scu.edu.cn">scuer_wt@stu.scu.edu.cn</a> | 
+        🎓 <a href="https://scholar.google.com.hk/citations?user=rYu4ytsAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a> |
+        💻 <a href="https://github.com/zjk1988" target="_blank">GitHub</a>
+    </div>
+
+    <h2>🐑 About Me</h2>
+    <div class="section">
+        <p>
+            I am a Ph.D. candidate in Computer Science and Technology at Sichuan University, advised by 
+            <a href="#">Prof. Yi Zhang (张意)</a> (Deep Imaging Group). Since 2025, I have been a research intern at 
+            Alibaba DAMO Academy, supervised by <a href="#">Dr. Weihua Chen (陈威华)</a> and <a href="#">Dr. Zhihui Lin (林智慧)</a>.
+        </p>
+        <br>
+        <p>
+            My research interests lie in computer vision, image generation, and inverse problems in medical imaging, 
+            with a particular focus on CT image reconstruction and metal artifact reduction.
+        </p>
+        <br>
+        <p>
+            My research codes are open-sourced on GitHub. If you find my work useful, please consider starring the repositories 
+            and citing my papers.
+        </p>
+    </div>
+
+    <h2>🔥 News</h2>
+    <div class="section">
+        <ul>
+            <li class="news-item">
+                <span class="news-date">2026.01:</span> 🎉 Awarded <span class="highlight">DAMO Academy Excellent Academic Intern</span>!
+            </li>
+            <li class="news-item">
+                <span class="news-date">2025.10:</span> 🎉 Received <span class="highlight">《中国体视学与图像分析2020-2024年优秀论文》</span> award!
+            </li>
+            <li class="news-item">
+                <span class="news-date">2025.10:</span> 🎉 Presented "Towards Real-World CT Metal Artifact Reduction" at the 20th Chinese Society of Stereology and Image Analysis Conference, Nanchang.
+            </li>
+            <li class="news-item">
+                <span class="news-date">2025.09:</span> 🎉 One paper accepted by <span class="venue">IEEE Transactions on Medical Imaging</span> (IF=9.8)!
+            </li>
+            <li class="news-item">
+                <span class="news-date">2026.04:</span> 🎉 Received <span class="highlight">Fully3D 2026 Travel Award</span>!
+            </li>
+            <li class="news-item">
+                <span class="news-date">2025.05:</span> 🎉 Gave an oral presentation at <span class="highlight">Fully3D 2025</span>, Shanghai.
+            </li>
+            <li class="news-item">
+                <span class="news-date">2024.12:</span> 🎉 Awarded <span class="highlight">Huawei Scholarship</span>!
+            </li>
+            <li class="news-item">
+                <span class="news-date">2023.06:</span> 🎉 Gave an oral presentation at <span class="highlight">ICASSP 2023</span>, Rhodes Island, Greece.
+            </li>
+        </ul>
+    </div>
+
+    <h2>💻 Selected Publications</h2>
+    <div class="section">
+        <p><em>#: Co-First Author *: Corresponding Author</em></p>
+        <p>Please find my full paper list at my <a href="https://scholar.google.com.hk/citations?user=rYu4ytsAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>.</p>
+        <br>
+        
+        <h3 style="margin: 25px 0 15px 0; color: #222;">🩻 CT Metal Artifact Reduction</h3>
+        
+        <div class="publication">
+            <span class="venue">IEEE TMI</span> 
+            SMART: Self-supervised Learning for Metal Artifact Reduction in Computed Tomography Using Range Null Space Decomposition.<br>
+            <strong>Tao Wang</strong>, Yi Zhang*, et al. IEEE Transactions on Medical Imaging, 2025. 
+            <span class="highlight">(中科院1区Top, IF=9.8)</span>
+        </div>
+        
+        <div class="publication">
+            <span class="venue">IEEE JBHI</span> 
+            SemiMAR: Semi-supervised learning for CT metal artifact reduction.<br>
+            <strong>Tao Wang</strong>, Yi Zhang*, et al. IEEE Journal of Biomedical and Health Informatics, 2023. 
+            <span class="highlight">(首页推荐, 中科院1区Top, IF=7.7)</span>
+        </div>
+        
+        <div class="publication">
+            <span class="venue">Fully3D 2025</span> 
+            Dual Implicit Neural Representation Learning with Spectral Adaptation for Self-Supervised CT Metal Artifact Reduction.<br>
+            <strong>Tao Wang</strong>, Yi Zhang*, et al. The 18th International Meeting on Fully 3D Image Reconstruction in Radiology and Nuclear Medicine, 2025. 
+            <span class="highlight">(Oral Presentation, 清华大学推荐A类会议)</span>
+        </div>
+        
+        <div class="publication">
+            <span class="venue">MICCAI 2023</span> 
+            Building a bridge: Close the domain gap in CT metal artifact reduction.<br>
+            <strong>Tao Wang</strong>, Yi Zhang*, et al. Medical Image Computing and Computer Assisted Intervention, 2023. 
+            <span class="highlight">(CCF B类)</span>
+        </div>
+        
+        <div class="publication">
+            <span class="venue">ICASSP 2023</span> 
+            Stay in the middle: A semi-supervised model for CT metal artifact reduction.<br>
+            <strong>Tao Wang</strong>, Yi Zhang*, et al. IEEE International Conference on Acoustics, Speech and Signal Processing, 2023. 
+            <span class="highlight">(Oral Presentation, CCF B类)</span>
+        </div>
+        
+        <div class="publication">
+            <span class="venue">IEEE TRPMS</span> 
+            IDOL-Net: an interactive dual-domain parallel network for CT metal artifact reduction.<br>
+            <strong>Tao Wang</strong>, Yi Zhang*, et al. IEEE Transactions on Radiation and Plasma Medical Sciences, 2023. 
+            <span class="highlight">(中科院2区, IF=4.6)</span>
+        </div>
+        
+        <div class="publication">
+            <span class="venue">PMB</span> 
+            DAN-Net: Dual-domain adaptive-scaling non-local network for CT metal artifact reduction.<br>
+            <strong>Tao Wang</strong>, Yi Zhang*, et al. Physics in Medicine and Biology, 2021. 
+            <span class="highlight">(中科院2区Top, IF=4.17)</span>
+        </div>
+        
+        <div class="publication">
+            <span class="venue">MICCAI 2021</span> 
+            Dual-domain adaptive-scaling non-local network for CT metal artifact reduction.<br>
+            <strong>Tao Wang</strong>, Yi Zhang*, et al. Medical Image Computing and Computer-Assisted Intervention, 2021. 
+            <span class="highlight">(Early Accept, CCF B类)</span>
+        </div>
+        
+        <h3 style="margin: 25px 0 15px 0; color: #222;">📚 CT Reconstruction & Survey</h3>
+        
+        <div class="publication">
+            <span class="venue">IEEE TRPMS</span> 
+            A review of deep learning CT reconstruction from incomplete projection data.<br>
+            <strong>Tao Wang</strong>, Yi Zhang*, et al. IEEE Transactions on Radiation and Plasma Medical Sciences, 2023. 
+            <span class="highlight">(中科院2区, IF=4.6)</span>
+        </div>
+    </div>
+
+    <h2>🚀 Open Source Projects</h2>
+    <div class="section">
+        <div class="project">
+            <a href="https://github.com/zjk1988/DAN-Net" target="_blank"><strong>DAN-Net</strong></a>
+            <br>
+            A Pytorch implementation of Dual-domain Adaptive-scaling Non-local Network for CT Metal Artifact Reduction.
+            <br>
+        </div>
+        
+        <div class="project">
+            <a href="https://github.com/zjk1988/IDOL-Net" target="_blank"><strong>IDOL-Net</strong></a>
+            <br>
+            IDOL-Net: An Interactive Dual-Domain Parallel Network for CT Metal Artifact Reduction.
+            <br>
+        </div>
+        
+        <div class="project">
+            <a href="https://github.com/zjk1988/SemiMAR" target="_blank"><strong>SemiMAR</strong></a>
+            <br>
+            A Pytorch implementation of SemiMAR: Semi-Supervised Learning for CT Metal Artifact Reduction.
+            <br>
+        </div>
+        
+        <div class="project">
+            <a href="https://github.com/zjk1988/Deep-Learning-CT-Reconstruction-from-Incomplete-Projection-Data" target="_blank"><strong>Deep Learning CT Reconstruction</strong></a>
+            <br>
+            A comprehensive survey and code collection of deep learning methods for CT reconstruction from incomplete projection data.
+            <br>
+        </div>
+    </div>
+
+    <h2>🎖 Honors and Awards</h2>
+    <div class="section">
+        <div class="award-item">
+            <div class="award-title">Fully3D Travel Award</div>
+            <div class="award-date">2026</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">DAMO Academy Excellent Academic Intern</div>
+            <div class="award-date">2025</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">《中国体视学与图像分析2020-2024年优秀论文》</div>
+            <div class="award-date">2025</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Huawei Scholarship</div>
+            <div class="award-date">2024</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Sichuan University Doctoral Innovation Scholarship</div>
+            <div class="award-date">2023</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Sichuan University Doctoral First-Class Scholarship</div>
+            <div class="award-date">2022-2026</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Outstanding Graduate Thesis, Sichuan University</div>
+            <div class="award-date">2022</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Tencent First-Class Scholarship</div>
+            <div class="award-date">2022</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Sichuan University Master First-Class Scholarship</div>
+            <div class="award-date">2021-2022</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">ISICDM 2020 Low Dose CT Denoising Challenge <span class="highlight">Top 5%</span> (Team Leader)</div>
+            <div class="award-date">2020</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Outstanding Graduate Thesis, Northeast Forestry University</div>
+            <div class="award-date">2019</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Heilongjiang Province Mathematical Modeling First Prize</div>
+            <div class="award-date">2018</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">National Scholarship</div>
+            <div class="award-date">2016</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Northeast Forestry University First-Class Scholarship</div>
+            <div class="award-date">2015-2018</div>
+        </div>
+    </div>
+
+    <h2>📖 Education</h2>
+    <div class="section">
+        <ul>
+            <li>
+                <strong>2022.09 - Present</strong>, Ph.D. in Computer Science and Technology, Sichuan University, Chengdu.<br>
+                Advisor: Prof. Yi Zhang
+            </li>
+            <li>
+                <strong>2019.09 - 2022.06</strong>, M.E. in Computer Science and Technology, Sichuan University, Chengdu.<br>
+                Advisor: Prof. Yi Zhang
+            </li>
+            <li>
+                <strong>2015.09 - 2019.06</strong>, B.E. in Computer Science and Technology, Northeast Forestry University, Harbin.<br>
+                Advisor: Prof. Huiling Yu
+            </li>
+        </ul>
+    </div>
+
+    <h2>📂 Experience</h2>
+    <div class="section">
+        <ul>
+            <li>
+                <strong>2025.01 - Present</strong>, Research Intern, Alibaba DAMO Academy, Hangzhou.<br>
+                Advisor: Dr. Weihua Chen | Research Direction: Image Generation
+            </li>
+        </ul>
+    </div>
+
+    <h2>💬 Talks & Presentations</h2>
+    <div class="section">
+        <ul>
+            <li>
+                "Towards Real-World CT Metal Artifact Reduction", The 20th Chinese Society of Stereology and Image Analysis Conference, Nanchang, Oct 2025.
+            </li>
+            <li>
+                "Dual Implicit Neural Representation Learning with Spectral Adaptation for Self-Supervised CT Metal Artifact Reduction", Fully3D 2025, Shanghai, May 2025.
+            </li>
+            <li>
+                "Semi-supervised Learning for Metal Artifact Reduction in CT", ICASSP 2023, Rhodes Island, Greece, Jun 2023.
+            </li>
+            <li>
+                "Dual-domain Metal Artifact Reduction in CT", The 1st "Youfang" Youth Academic Forum of the Intelligent Imaging Branch of the Chinese Society of Stereology, May 2023.
+            </li>
+            <li>
+                "An Interactive Dual-domain Parallel Network for CT Metal Artifact Reduction", The 17th National Conference on Computer Vision and Image Analysis, Nov 2022.
+            </li>
+        </ul>
+    </div>
+
+    <h2>💼 Academic Service</h2>
+    <div class="section">
+        <h4 style="margin: 15px 0 10px 0;">Journal Reviewer</h4>
+        <ul>
+            <li>IEEE Transactions on Medical Imaging (TMI)</li>
+            <li>IEEE Transactions on Instrumentation and Measurement (TIM)</li>
+            <li>Pattern Recognition (PR)</li>
+            <li>IEEE Journal of Biomedical and Health Informatics (JBHI)</li>
+            <li>IEEE Transactions on Radiation and Plasma Medical Sciences (TRPMS)</li>
+            <li>Physics in Medicine & Biology (PMB)</li>
+            <li>Medical Physics</li>
+        </ul>
+        
+        <h4 style="margin: 20px 0 10px 0;">Conference Reviewer</h4>
+        <ul>
+            <li>Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022-2026</li>
+            <li>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023-2024</li>
+        </ul>
+    </div>
+
+    <div style="margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; color: #888; font-size: 0.9em;">
+        © 2026 Tao Wang | Last updated: April 2026
+    </div>
+</body>
+</html>
